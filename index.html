@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>바닐라 js 코테준비</title>
+
+    <h1>오늘의 할일 목록</h1>
   </head>
   <body>
-    이제 여기다 투두리스트 만들기
-    <div>제목</div>
-    <div><input id="title" type="text" /></div>
-    <form></form>
+    <div>
+      <h2>my todo APP</h2>
+      <hr />
+      <div>
+        <input id="item" type="text" placeholder="할일을 입력하세요" />
+        <button type="button" onclick="addItelm()">할일 추가</button>
+      </div>
+      <ul id="todolist"></ul>
+    </div>
   </body>
 </html>
