@@ -1,0 +1,44 @@
+/* body {
+  background-image: url(aaaa.webp);
+  background-size: cover;
+} */
+
+#maintitle {
+  color: red;
+  font-size: 21px;
+}
+
+.mainbox {
+  border-color: blue;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.form-control {
+  border-radius: 20px;
+}
+.btn {
+  background-color: blue;
+  border-radius: 20px;
+}
+
+.list-group li {
+  display: block; /* Make the <li> element a block-level element */
+  border: 1px solid red;
+  padding: 6px;
+  margin: 2px 0;
+  width: 80%; /* Adjust the width as needed */
+}
+
+.list-group-item {
+  position: relative; /* Set position relative to allow absolute positioning of delete button */
+}
+
+.list-group-item button {
+  position: absolute;
+  right: 0;
+}
