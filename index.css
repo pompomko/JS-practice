@@ -31,14 +31,15 @@
   border: 1px solid red;
   padding: 6px;
   margin: 2px 0;
-  width: 80%; /* Adjust the width as needed */
+  width: 30%; /* Adjust the width as needed */
 }
 
 .list-group-item {
-  position: relative; /* Set position relative to allow absolute positioning of delete button */
+  position: relative; /* 삭제 버튼을 상대 위치로 설정합니다. */
+  padding-right: 40px; /* 삭제 버튼이 border 내부에 위치할 공간을 마련합니다. */
 }
 
-.list-group-item button {
-  position: absolute;
-  right: 0;
+.delete-button {
+  top: 50%; /* 부모 요소의 중앙에 위치시킵니다. */
+  margin-left: 250px; /* border와의 간격을 조정합니다. */
 }
