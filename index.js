@@ -28,6 +28,7 @@ function addItelm() {
     list.appendChild(listitem);
     // 할일 입력 필드 비우기
     document.getElementById("item").value = "";
+    document.getElementById("item").focus();
   } else {
     // 입력 필드가 비어 있을 경우 알림 표시
     alert("할일을 입력하세요.");
