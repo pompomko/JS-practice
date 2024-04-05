@@ -55,7 +55,7 @@ const addItelm = () => {
     list.appendChild(listitem);
 
     document.getElementById("item").value = "";
-    document.getElementById("item").focus;
+    document.getElementById("item").focus();
   } else {
     alert("내용 입력하시오");
   }
