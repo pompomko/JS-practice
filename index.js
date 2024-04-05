@@ -44,8 +44,9 @@ const addItelm = () => {
     listitem.textContent = todo;
 
     let deleteButton = document.createElement("button");
+    // let deleteButton = document.createElement("img");
     deleteButton.textContent = "삭제";
-    // deleteButton.src = "aaaa.webp";
+    // deleteButton.src = "img/aaaa.webp";
     deleteButton.className = "delete-button";
     deleteButton.onclick = () => {
       list.removeChild(listitem);
