@@ -41,5 +41,6 @@
 
 .delete-button {
   top: 50%; /* 부모 요소의 중앙에 위치시킵니다. */
+
   margin-left: 250px; /* border와의 간격을 조정합니다. */
 }
