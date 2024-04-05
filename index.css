@@ -1,7 +1,7 @@
-/* body {
-  background-image: url(aaaa.webp);
-  background-size: cover;
-} */
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 #maintitle {
   color: red;
@@ -16,6 +16,12 @@
   width: 200px;
   height: 200px;
   border-radius: 50px;
+}
+
+.input-group > button {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 200px;
 }
 
 .form-control {
@@ -40,7 +46,7 @@
   grid-gap: 10px;  */
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1 0.3fr);
   grid-gap: 25px;
 }
 
